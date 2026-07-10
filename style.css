@@ -45,6 +45,8 @@ nav {
     margin-top: 300px;
    
 }
+
+
 /*nav section end */
 
 /*header section start */
@@ -105,4 +107,79 @@ header{
 .meet-the-spkr-card-container h5{
     color: rgb(156, 154, 152);
     font-size: large;
+}
+
+/*pricing-sec-parent*/
+.pricing-sec-parent{
+    margin: 60px auto;
+    text-align: center;
+    max-width: 1200px;
+}
+.pricing-sec-card-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 30px;
+    
+}
+.pricing-sec-card{
+    border: .5px solid;
+    padding: 28px;
+    border-radius: 10px;
+    border-color: rgb(222, 222, 219);
+    background-color: rgb(248, 249, 249);
+    
+}
+.pricing-sec-card hr{
+    border: none;
+    border-top: 1px solid;
+    margin: 25px 0;
+}
+.pro-price{
+    background-color: black;
+    border: .5px solid;
+    padding: 28px;
+    border-radius: 10px;
+    border-color: rgb(222, 222, 219);
+    color: white;
+    
+}
+.price{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.pro-price hr{
+     border: none;
+    border-top: 1px solid;
+    margin: 25px 0;
+}
+
+.common-button-price{
+    background-color: blue;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+   
+   
+}
+
+.outline-button-price {
+    background-color:white;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
+    border: 1px solid;
+    cursor: pointer;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
 }
