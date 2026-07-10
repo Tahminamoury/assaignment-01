@@ -6,7 +6,6 @@
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
     max-width: 1200px;
     margin: auto;
     padding: 10px 20px;
@@ -22,15 +21,54 @@ nav {
     font-size: 17px;
     
 }
-.common-button{
+.common-button-navber{
     background-color: blue;
-    padding: 10px 10px;
-    border-radius: 15px;
+    padding: 12px 30px;
+    border-radius: 8px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.common-button-header{
+    background-color: blue;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 300px;
    
 }
 /*nav section end */
 
-/*Banner section start */
+/*header section start */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(./assets/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 20px;
+   
+}
+.heading {
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.1;
+    color: white;
+}
+
+.heading .header-p{
+    max-width: 800px;
+    font-size: 18px;
+    color: white;
+   margin: 20px auto;
+}
+/*header section end */
