@@ -397,12 +397,12 @@ input[type="radio"] {
 }
 
 .color-font {
-    color: rgb(133, 132, 131);
+    color:  #969595;
 }
 
 .simple-footer {
     background-color: #040506;
-    color: #ddd;
+    color:  rgb(224, 222, 219);
     padding: 40px 20px;
     text-align: center;
 
@@ -418,7 +418,7 @@ input[type="radio"] {
 }
 
 .footer-links a {
-    color: rgb(133, 132, 131);
+    color: rgb(224, 222, 219);
     text-decoration: none;
 
     font-size: 15px;
@@ -432,5 +432,10 @@ input[type="radio"] {
 
 .footer-links a :hover {
     color: #2563eb;
+}
+
+.logo-icon span{
+    color: #2563EB;
+    font-size: 25px;
 }
 /*footer sec end*/
